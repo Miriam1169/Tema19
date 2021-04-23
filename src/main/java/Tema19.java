@@ -22,6 +22,8 @@ public class Tema19 {
         }
       }
         mostrararray(array);
+        
+        System.out.println("Solo se ha cambiado aqui");
     }
 
     static void mostrararray(int[] a) {
@@ -29,5 +31,7 @@ public class Tema19 {
             System.out.println(i + ": " + a[i]);
         }
     }
+    
+    
 }
 
